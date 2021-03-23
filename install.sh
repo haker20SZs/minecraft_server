@@ -31,7 +31,6 @@ menu()
 		7) rm -R /etc/rc.local && rm -R /etc/systemd/system/rc-local.service;;
 		8) rm -R /home/srv && rm -R /etc/rc.local && rm -R /etc/systemd/system/rc-local.service;;
 		9) apt-get update && apt-get upgrade && wget https://github.com/haker20SZs/minecraft_server/blob/main/README.md
-		0) exit;;
 	esac
 }
 menu
